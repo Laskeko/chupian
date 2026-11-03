@@ -54,6 +54,21 @@
 
 > 只做 Android，不做 iOS。核心逻辑（打标、索引、画像、知识卡）与数据格式保持平台无关——社区想承接 iOS 随时欢迎。
 
+## 本地跑起来
+
+当前处于 **M2 骨架阶段**：CameraX 取景 + ML Kit 骨架实时叠加（F4 基础层），F2/F3 为界面占位。
+
+```bash
+git clone https://github.com/Laskeko/chupian.git
+cd chupian
+./gradlew :app:assembleDebug   # 需要 JDK 17 + Android SDK 35
+adb install app/build/outputs/apk/debug/app-debug.apk
+```
+
+或者直接用 Android Studio 打开工程同步即可。
+
+> ML Kit 依赖 Google Play Services；无 GMS 设备的适配（切 MediaPipe Tasks）在 Roadmap 里。
+
 详细需求见 [docs/PRD.md](docs/PRD.md)，场景知识卡初始库见 [docs/scene-cards.md](docs/scene-cards.md)。
 
 ## 参与贡献

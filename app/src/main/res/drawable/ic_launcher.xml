@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- 简版相机图形，正式图标后续替换 -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M8,12h7l3,-4h12l3,4h7c1.1,0 2,0.9 2,2v22c0,1.1 -0.9,2 -2,2H8c-1.1,0 -2,-0.9 -2,-2V14C6,12.9 6.9,12 8,12z" />
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M24,18c-4.4,0 -8,3.6 -8,8s3.6,8 8,8 8,-3.6 8,-8 -3.6,-8 -8,-8z" />
+</vector>

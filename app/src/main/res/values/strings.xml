@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">出片搭子</string>
+    <string name="camera_permission_rationale">出片搭子需要相机权限才能在取景框里叠加构图与姿势参考。</string>
+    <string name="camera_permission_denied">没有相机权限，点这里重新授权</string>
+    <string name="btn_how_to_shoot">怎么拍</string>
+    <string name="chip_pose_tracking">骨架追踪中</string>
+    <string name="chip_pose_no_person">未检测到人</string>
+    <string name="chip_f2_pending">点位匹配 · 待接入 (F2)</string>
+    <string name="chip_f3_pending">场景推荐 · 待接入 (F3)</string>
+</resources>

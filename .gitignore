@@ -1,0 +1,24 @@
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+app/build/
+.gradle/
+local.properties
+*.keystore
+*.jks
+.idea/
+*.iml
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# macOS
+.DS_Store
