@@ -22,3 +22,7 @@ captures/
 
 # macOS
 .DS_Store
+
+# WorkBuddy 项目记忆（本地工作区数据，不进开源仓库）
+.workbuddy/
+
